@@ -17,10 +17,8 @@ Details: The data set appears to have been taken from the American Society of Ac
 Source: The World Almanac and Book of Facts, 1975.
 
 
-Data Set 2: 
+Data Set 2: main_data
 
-Description:
-Usage:
-Format: 
-Details:
-Source: 
+Description: from christophers repository
+
+## i am going to change the dataset to a one available in r ##
