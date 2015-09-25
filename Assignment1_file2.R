@@ -5,5 +5,5 @@
 ################
 
 ### read data
-main_data <- read.csv("~/git_repos/first_project/main_data.csv", header=FALSE)
+main_data <- read.csv("~/git_repos/assingment_1/Assignment1/main_data.csv", header=FALSE)
 
