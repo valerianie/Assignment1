@@ -41,5 +41,6 @@ plot(women$height, women$weight,
     xlab='weight in lbs',
     ylab='height in in')
 cor.test(women$weight, women$height)
+#weight and height are positively correlated
 
-#Data Set 2
+
