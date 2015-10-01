@@ -52,3 +52,11 @@ cor.test(women$weight, women$height)
 #weight and height are positively correlated
 
 
+
+
+# Citation of Software:
+
+# R Core Team (2015). R: A language and environment for
+# statistical computing. R Foundation for Statistical Computing,
+# Vienna, Austria. URL https://www.R-project.org/.
+
