@@ -11,6 +11,10 @@ Data Set 2: main_data
 
 Description: from christophers repository
 
+Data Set 3: InsectSprays
+
+Description: The dataset contains the counts of insects in agricultural experimental units treated with different insecticides.
+
 ## i am going to change the dataset to a one available in r ##
 
 ##we have to think about what to put in the read me file anyways then tomorrow - since its supposed to be short
