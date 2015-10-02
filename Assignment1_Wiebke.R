@@ -4,17 +4,9 @@
 # Wiebke Weiger                             #
 #############################################
 
-# setting the working directory:
 
-setwd("C:\\Users\\Wiebke\\Documents\\Hertie School of Governance\\courses and 
-       classes\\3-Fall Semester 2015\\Gandrud_Introduction to Collaborative 
-       Social Science Data Analysis\\Assignment1") 
-# please change the directory above to your local directory in order to run 
-# this file
-
-################################################################
 # Dataset of interest: Effectiveness of Insect Sprays
-# ##############################################################
+
 
 data("InsectSprays") # loads the dataset (one of the pre-installed R data sets)
 
