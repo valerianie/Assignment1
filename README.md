@@ -10,7 +10,7 @@ Please run the file ?? first as it contains the dynamic link to xyz.
 Description of chosen data sets:
 - **women** contains average heights and weights for American Women
 - **InsectSprays** contains the counts of insects in agricultural experimental units treated with different insecticides.
-- **Fertilizer** contains data on fertilizer consumptions in various countried from 2005-2011
+- **main_data** contains data on fertilizer consumptions in various countried from 2005-2011
 
 We made a pull request to https://github.com/gtarriba/GabrielRepo. We added message=FALSE in  swisspres.Rmd
 to suppress message in output. 
