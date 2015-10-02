@@ -12,7 +12,9 @@ Description of chosen data sets:
 - **InsectSprays** contains the counts of insects in agricultural experimental units treated with different insecticides.
 - **Fertilizer** contains data on fertilizer consumptions in various countried from 2005-2011
 
-We made a pull request to ?? to add ... 
+We made a pull request to https://github.com/gtarriba/GabrielRepo. We added message=FALSE in  swisspres.Rmd
+to suppress message in output. 
+
 
 
 
