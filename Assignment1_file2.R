@@ -27,12 +27,6 @@ summary(main_data$fertilizer_consumption)
 main_data$fertilizer_consumption<-as.numeric(main_data$fertilizer_consumption)
 ?main_data
 
-mean(main_data$fertilizer_consumption)
-
-
-
-
-
 #####################
 #Citation of Software
 #####################
