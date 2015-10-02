@@ -1,6 +1,6 @@
 #MPP-E1180: Introduction to Collaborative Social Science Data Analysis
 #Pair Assignment 1
-#Jasmin Cantzler & Valeria Nieberg
+#Jasmin Cantzler, Valeria Nieberg & Wiebke Weiger
 
 ###Data Set 1
 data()
@@ -19,40 +19,42 @@ data(women)
 
 names(women)
 # finds variable names (in this case two, "height" and "weight")
+
+# Convert the variables in centimeters and kilograms
+women$height_cm<-women$height*2.54
+women$weight_kg<-women$weight*0.45359237
+
 colors = c("violet")
 # specifies a color
-hist(women$height,
+hist(women$height_cm,
      main='Average Height for American Women aged 30-39',
-     xlab='height in in',
+     xlab='height in cm',
      col=colors)
 colors = c("blue")
 # specifies a color
-hist(women$weight,
+hist(women$weight_kg,
      main='Weight for American Women aged 30-39',
-     xlab='weight in lbs',
+     xlab='weight in kg',
      col=colors)
 #creates histogram for the two variables "height" and "weight"
-mean(women$weight)
+mean(women$weight_kg)
 #calculates the mean, average mean weight is 136.73 lbs (62.02kg)
-mean(women$height)
+mean(women$height_cm)
 #calculates the mean, average mean height is 65 in (165.1 cm)
-median(women$weight)
+median(women$weight_kg)
 # median weight 135
-median(women$height)
-# median height 65
-range(women$weight)
-# calculates the range, 115-164 lbs
-range(women$height)
-# calculates the range, 58-72 in
-plot(women$height, women$weight,
+median(women$height_cm)
+# median height 165.1
+range(women$weight_kg)
+# calculates the range, 52,16kg - 74,39kg
+range(women$height_cm)
+# calculates the range, 147,32 cm to 182,88 cm
+plot(women$height_cm, women$weight_kg,
     main='Average Height and Weight for American Women aged 30-39',
-    xlab='weight in lbs',
-    ylab='height in in')
-cor.test(women$weight, women$height)
+    xlab='weight in kg',
+    ylab='height in cm')
+cor.test(women$weight_kg, women$height_cm)
 #weight and height are positively correlated
-
-
-
 
 # Citation of Software:
 
