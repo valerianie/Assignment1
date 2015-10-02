@@ -11,7 +11,7 @@ If you have an interest in fertilizer rates consult the **Assignment1_file2.R R 
 Description of chosen data sets:
 - **women** contains average heights and weights for American Women
 - **InsectSprays** contains the counts of insects in agricultural experimental units treated with different insecticides.
-- **main_data** contains data on fertilizer consumptions in various countried from 2005-2011
+- **main_data** contains data on fertilizer consumptions in various countries from 2005-2011
 
 We made two  pull requests:
 - The first one to https://github.com/gtarriba/GabrielRepo. We added message=FALSE in  swisspres.Rmd to suppress message in output. 
