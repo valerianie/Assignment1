@@ -13,8 +13,9 @@ Description of chosen data sets:
 - **InsectSprays** contains the counts of insects in agricultural experimental units treated with different insecticides.
 - **main_data** contains data on fertilizer consumptions in various countried from 2005-2011
 
-We made a pull request to https://github.com/gtarriba/GabrielRepo. We added message=FALSE in  swisspres.Rmd
-to suppress message in output. 
+We made two  pull requests:
+- The first one to https://github.com/gtarriba/GabrielRepo. We added message=FALSE in  swisspres.Rmd to suppress message in output. 
+- The second one to https://github.com/ChristopherCosler/CollaborativeDataAnalysisChristopherAndLisa to suggest to add a citation of the R software.
 
 
 
