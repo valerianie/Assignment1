@@ -4,6 +4,8 @@
 ###    date: "25.09.2015"     ###
 #################################
 
+## can you see this?
+
 # this r script is the third file of our first assignment. it is linked to the other 
 # files. it is not included in our master r script, which only loads those files 
 # working with r core datasets. this was an attepmt to work with a dataset which
